@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grass {
+  background-color: #9BCC51;
+}
+
+.poison {
+  background-color: #B97FC9;
+}
+
+.fire {
+  background-color: #FD7D24;
+}
+
+.water {
+  background-color: #4692C4;
+}
+
+.bug {
+  background-color: #719F3F;
+}
+
+.flying {
+  background-color: #3EC7EF;
+}
+
+.normal {
+    background-color: #A5ACAF;
+}fighter
+
+.electric{
+    background-color: #EED535;
+}
+
+.fairy {
+    background-color: #FDB9E9;
+}
+
+.fighting {
+    background-color: #D66724;
+}
+
+.ground{
+    background-color: #AB9842;
+}
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
